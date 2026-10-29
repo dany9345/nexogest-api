@@ -1,0 +1,19 @@
+# .NET / IDE
+**/bin/
+**/obj/
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+# Base de datos local (mantener migraciones)
+**/data/*.db
+**/data/*.db-shm
+**/data/*.db-wal
+# Datos locales / temporales
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
